@@ -1,0 +1,35 @@
+<h1 *ngIf="!loading">Results</h1>
+
+<div *ngIf="answers" class="row">
+    <table class="answers-table">
+        <thead>
+          <tr>
+              <th>User</th>
+              <th>Question 1</th>
+              <th>Question 2</th>
+              <th>Question 3</th>
+              <th>Question 4</th>
+              <th>Question 5</th>
+              <th>Question 6</th>
+              <th>Question 7</th>
+              <th>Question 8</th>
+              <th>Question 9</th>
+              <th>Question 10</th>
+              <th>Total points</th>                  
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let answer of answers">
+            <td [ngClass]="{'bold' : loginUser === answer.user.email}">{{answer.user.email}}</td>
+            <td *ngFor="let result of answer.answers">{{result}}</td>                
+            <td>{{getSum(answer.answers)}}</td>
+          </tr>              
+        </tbody>
+      </table>
+</div>
+
+<div *ngIf="!answers && !loading"><p>No answers!</p></div>
+
+<app-loader *ngIf="loading"></app-loader>
+

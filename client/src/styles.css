@@ -1,0 +1,6 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+@import "styles.min.css";
+
+.bold {
+    font-weight: bold;
+}

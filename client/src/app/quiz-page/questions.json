@@ -1,0 +1,185 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the derivative of Acceleration with respect to time?",
+            "correct_answer": "Jerk",
+            "incorrect_answers": [
+                "Shift",
+                "Bump",
+                "Slide"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+            "correct_answer": "Blood Sugar Sex Magik",
+            "incorrect_answers": [
+                "One Hot Minute",
+                "By the Way",
+                "Stadium Arcadium"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                "0",
+                "1",
+                "5"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+            "correct_answer": "USS Pueblo",
+            "incorrect_answers": [
+                "USS North Carolina",
+                "USS Constitution",
+                "USS Indianapolis"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these chemical compounds is NOT found in gastric acid?",
+            "correct_answer": "Sulfuric acid",
+            "incorrect_answers": [
+                "Hydrochloric acid",
+                "Potassium chloride",
+                "Sodium chloride"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+            "correct_answer": "Turkey",
+            "incorrect_answers": [
+                "Syria",
+                "Greece",
+                "Egypt"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was Nintendo founded?",
+            "correct_answer": "September 23rd, 1889",
+            "incorrect_answers": [
+                "October 19th, 1891",
+                "March 4th, 1887",
+                "December 27th, 1894"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+            "correct_answer": "Being run over by a truck",
+            "incorrect_answers": [
+                "Ate one too many chocobars",
+                "Through a magical ritual",
+                "When he put on the harmaki"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who authored The Adventures of Tintin?",
+            "correct_answer": "Herg&eacute;",
+            "incorrect_answers": [
+                "E.P. Jacobs",
+                "Rin Tin Tin",
+                "Chic Young"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When was the DVD invented?",
+            "correct_answer": "1995",
+            "incorrect_answers": [
+                "2000",
+                "1990",
+                "1980"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen&#039;s Site B?",
+            "correct_answer": "Isla Sorna",
+            "incorrect_answers": [
+                "Isla Nublar",
+                "Isla Pena",
+                "Isla Muerta"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+            "correct_answer": "Husker",
+            "incorrect_answers": [
+                "Starbuck",
+                "Apollo",
+                "Crashdown"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka&#039;s younger brother?",
+            "correct_answer": "Tatsuya",
+            "incorrect_answers": [
+                "Montoya",
+                "Tomohisa",
+                "Minato"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Why were only only 300,000 copies of Uniracers were produced?",
+            "correct_answer": "DMA Designs was sued by Pixar, preventing more copies from being produced",
+            "incorrect_answers": [
+                "There was a disagreement between DMA Designs and Nintendo",
+                "It didn&#039;t sell well due to poor review scores",
+                "No public information is available"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+            "correct_answer": "35 Pounds",
+            "incorrect_answers": [
+                "30 Pounds",
+                "40 Pounds",
+                "32.50 Pounds"
+            ]
+        }
+    ]
+}

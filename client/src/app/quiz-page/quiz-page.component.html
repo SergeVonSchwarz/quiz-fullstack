@@ -1,0 +1,33 @@
+<div *ngIf="!loading" class="wrap">
+    <h1>Quiz</h1>
+    <div class="row">
+        <div class="question-number">
+            <span>Question {{currentQuestionNumber}} of 10</span>
+        </div>
+        <h5>{{currentQuestionNumber}}. {{currentQuestion}}</h5>
+        <form 
+          [formGroup]="form"
+          (ngSubmit)="onSubmit()"
+          >
+            <p *ngFor="let q of currentQuestionArray">
+              <label>
+                <input 
+                  (click)="enableSubmit()"
+                  type="radio" 
+                  formControlName="question" 
+                  value="{{q}}" />
+                <span>{{q}}</span>
+              </label>
+            </p>
+            <button
+              type="submit"
+              class="modal-action btn waves-effect"
+              [disabled]="submitDisabled"
+            >Next
+            </button>
+        </form> 
+
+    </div>    
+</div>
+
+<app-loader *ngIf="loading"></app-loader>
